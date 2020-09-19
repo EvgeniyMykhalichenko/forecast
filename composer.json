@@ -1,10 +1,17 @@
 {
     "name": "krepysh/forecast",
+    "description": "Forecast laravel package",
+    "keywords": ["laravel", "forecast", "forecast api"],
+    "authors": [
+        {
+            "name": "Krepysh",
+            "email": "evgeniymykhalichenko@gmail.com"
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "7.0"
     },
     "license": "MIT",
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Krepysh\\Forecast\\": "src/"
