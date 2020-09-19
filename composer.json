@@ -1,0 +1,23 @@
+{
+    "name": "krepysh/forecast",
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Krepysh\\Forecast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
